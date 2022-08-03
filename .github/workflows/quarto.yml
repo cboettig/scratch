@@ -27,4 +27,7 @@ jobs:
       - name: Quarto render
         run: |
           quarto render weather-covariates.qmd
+      - name: example2
+        run: |
+          quarto render ex2.qmd
 
